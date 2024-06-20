@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/bedc642794.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p><b>FrontEnd Developer</b></p>
+                <h1>Hey, I'm <span>Nishchal Nijaguna D H</span><br>from Davangere</h1>
+            </div>
+        </div>
+    </div>
+<!---------------------------ABOUT SECTION------------------>
+    <div id="about">
+        <div id="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="dvm_main.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Quick learner and an aspiring FrontEnd Developer with core knowledge of HTML,CSS ,Java ,Java Script,React JS,REST APIs and MySQL technology. Looking forward to applying and enhancing my skills and knowledge as a developer.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span><b>DSA</b></span><br>Solving real world problems using <b>Data Structures & Algorithms</b></li>
+                            <li><span><b>Web Development</b></span><br>Creating & Designing webpages</li>
+                        </ul>
+                    </div>
+                   
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span><b>Bapuji Institute of Engineering and Technology</b></span><br>CGPA-7.5<br>2021-2024<br>B.Tech in Information Science and Engineering</li>
+                            <li><span><b>Bapuji Polytechnic Shabanur</b></span><br>2018-2021<br>Percentage-80%</li>
+                            <li><span><b>Eshwaramma School </b></span><br>2007-2018<br>Percentage-82.4%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------services------------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Creating Webpages</h2>
+                    <p>Creating webpages involves writing code or using a website builder to structure and design the content. You'll need to consider text, images, and layout to deliver your message effectively.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Designing Webpages</h2>
+                    <p>Designing webpages involves planning the layout, creating visual elements, and writing clean code to ensure the website functions well and looks great on all devices.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!---------------PROJECTS--------------------->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img work1.jpg">
+                    <div class="layer">
+                        <h3><b>E-Authentication-System-Using-Image-Segment-OTP
+                        </b></h3>
+                        <p>E-Auth System: HTML/PHP functionality using image side authentication & OTP. MySQL database on XAMPP. It increases security through image based login & OTP authentication. Simple web interface.</p>
+                        <a href="https://github.com/Nishchaldh25/E-Authentication-System-Using-Image-Segment-OTP"><i class="fa-sharp fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                
+               
+                <div class="work">
+                    <img src="img work2.png" width="100" height="500">
+                    <div class="layer">
+                        <h3><b>Smart-Phone-Recommendation-System
+                        </b></h3>
+                        <p>Using mobile recommendation systems enhances user experience in extraordinary detail. Explore this project, which focuses on providing personalized content for the growing Indian smartphone market,…</p>
+                        <a href="https://github.com/Nishchaldh25/Smart-Phone-Recommendation-System"><i class="fa-sharp fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!----------------------CONTACT-------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>nischalhiremath40@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>7204271266</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/nishchal-nijaguna-d-h-95b191296/"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/n_i_s_c_h_a_l__d_h"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/Nishchaldh25"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right"></div>
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="E-mail" placeholder="Your E-mail" required>
+                    <textarea name="Message" rows="4" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>My Portfolio Webpage.</p>
+            <p>Copyright © Nischal.</p>
+        </div>
+    </div>
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname)
+    {
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>  
+</body>
+</html>
